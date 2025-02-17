@@ -10,9 +10,9 @@ function App() {
     <>
     <Navbar/>
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/main" element={<Main />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/ReactRouting/" element={<Home />} />
+      <Route path="/ReactRouting/main" element={<Main />} />
+      <Route path="/ReactRouting/about" element={<About />} />
     </Routes>
     
     </>

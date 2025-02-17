@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <nav>
         <ul>
-            <li><a onClick={() => navigate("/")}>Home</a></li>
-            <li><a onClick={() => navigate("/main")}>MainPage</a></li>
-            <li><a onClick={() => navigate("/about")}>About</a></li>
+            <li><a onClick={() => navigate("/ReactRouting/")}>Home</a></li>
+            <li><a onClick={() => navigate("/ReactRouting/main")}>MainPage</a></li>
+            <li><a onClick={() => navigate("/ReactRouting/about")}>About</a></li>
         </ul>
     </nav>
   )
